@@ -4,12 +4,10 @@
     font-family: sans-serif;
 }
 body{
-    background: url('https://adapt-global.com/en-us/wp-content/uploads/sites/4/2020/05/1.6.2020-Lady-in-office-post-COVID.jpg');
-    background-size:cover;
-    
+    background: whitesmoke;
 }
 .container{
-    width: 95%;
+    width: 100%;
     padding: 10px;
 }
 ul {
@@ -21,7 +19,6 @@ ul {
 }
 ul li {
     padding: 10px;
-    
     text-transform: uppercase;
 }
 
@@ -34,5 +31,11 @@ ul li a:hover{
     background: pink;
 }
 h2 {
-    padding: 7px;
+    padding: 10px;
+}
+footer{
+    padding: 20px;
+    background: #000;
+    color: white;
+    text-align: center;
 }
