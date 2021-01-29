@@ -32,7 +32,7 @@ ul li a:hover{
 .container-bo{
     background: url('../image/p.jpg');
     background-size: cover;
-    height: 120vh;
+    height: 95vh;
 }
 .grid{
     display: grid;
@@ -43,26 +43,29 @@ ul li a:hover{
     margin-top: 30%;
 }
 h1{
-    color: rgb(253, 38, 199);
+    color: teal;
     font-size: 40px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
-h3{
+h4{
+    color: #fff;
+    background: rgb(3, 92, 92);
+    padding: 50px;
     display: flex;
-    color: blue;
     justify-content: center;
-    text-align: start;
+    text-align: center;
 }
-img{
-   width: 30px; 
-   
+.icon{
+    margin-top: 40px;
+    display: flex;
+    justify-content:flex-end; 
+    text-align: end;
 }
- #c1{
-     width: 35px;
- }
+a i{
+    width: 50px;
+}
 footer{
     padding: 10px;
-    background: rgb(6, 32, 32);
-    color: white;
-    text-align: center;
+    background: rgb(28, 94, 94);
+
 }

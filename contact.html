@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -17,43 +16,55 @@
             <li><a href="/contact.html"><i class="fa fa-phone"></i>contace</a></li>
         </ul>
     </div>
-    
-     <div class="form">
-        <fieldset>
-            <form action="contact-form">
-                <h3>Contact Me</h3>
-                <input type="text" placeholder="Username" required><br>
-                <br>
-                <input type="text" placeholder="Email" required><br>
-                <br>
-                <input type="text" placeholder="Password" required><br>
-                <br>
-                <textarea  id="message" cols="22" row="4" placeholder="Message" required></textarea>
-                <br>
-                <input type="reset" value="Clear" >
-                <input type="submit" value="Send">
-                <!-- <a href = "mailto:abc@example.com?subject = Feedback&body = Message"></a> -->
-            </form>
-        </fieldset>
+    <div class="flex">
         <div class="map">
             <div class="gmap_canvas">
-                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=pnc&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=pnc&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 <a href="https://www.whatismyip-address.com"></a><br>
-                <a href="https://www.embedgooglemap.net">embedding google map in website</a>
+                <a href="https://www.embedgooglemap.net"></a>
             </div>
         </div>
-     </div>
+        <div class="form">
+            <fieldset>
+                <h3>Form Contact Me</h3>
+                <div class="form-contact">
+                    <form action="#">
+                        <label for="username">Username</label></br>
+                        <input type="text" placeholder="Username" required><br>
+                        <label for="email">Email</label></br>
+                        <input type="text" placeholder="Email" required></br>
+                        <label for="password">Password</label></br>
+                        <input type="text" placeholder="Password" required><br>
+                        <label for="message">Message</label></br>
+                        <textarea  id="message" cols="22" row="4" placeholder="Message" required></textarea></br>
+                        <br>
+                        <input type="reset" value="Clear" >
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </fieldset>
+        </div>
+        
+    </div>
     
-     <footer>
+    <footer>
         <div class="icon">
-            <p>Contact Us</p>
-            <a href="https://www.fackbook.com/"><i class="fa fa-facebook-official"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a>
-            <a href="https://www.twitter.com/"><i class="fa fa-twitter-square"></i></a>
-            <a href="https://www.telegram.com/"><i class="fa fa-telegram"></i></a>
+            <p>Contact Us:</p>
+            <a href="https://www.fackbook.com/"><i class="fa fa-facebook-official" style="font-size:36px;color:blue;"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram "style="font-size:36px;color:red;"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square" style="font-size:36px;color:darkblue"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa fa-twitter-square"style="font-size:36px;color:blue;"></i></a>
+            <a href="https://www.telegram.com/"><i class="fa fa-telegram "style="font-size:36px;color:rgb(47, 199, 245);"></i></a>
+        </div>
+        <div class="txt">
+            <div class="icon1">
+                <a href="https://www.embedgooglemap.net"><i class="fa fa-map-marker" style="font-size:36px"></i></a>
+                <a href=""><i class="fa fa-mobile-phone" style="font-size:36px"></i></a>
+                <a href=""><i class="fa fa-user-circle" style="font-size:36px"></i></a>
+            </div>
             <p>Copy right by @molika.heng</p>
         </div>
+        
     </footer>
 </body>
 </html>

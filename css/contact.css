@@ -27,21 +27,22 @@ ul li a {
 ul li a:hover{
     background: pink;
 }
-fieldset{
-    border: 1px solid;
-    width: 560px;
-    color: rgb(8, 8, 8);
-    margin:auto;
-    padding-top:20px;
-    background: skyblue;
-    
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-.form{
+fieldset{
+    width: 550px;
+    height: 400px;
+    background: cyan;
+}
+h3{
+    padding-top: 20px;
+}
+.form-contact{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
-    height: 70vh;
-    border-collapse: collapse;
 }
 input[type="text"]{
     width: 500px;
@@ -52,36 +53,27 @@ input[type="text"]{
     height: 10vh;
 }
 input[type="reset"]{
-    width: 50px;
-    background: orange; 
+    width: 250px;
+    height: 10vh;
+    background: orange;
 }
 input[type="submit"]{
-    width:50px;
+    width:250px;
+    height: 10vh;
     background: teal;
 }
-.map{
-    position:relative;
-    text-align:right;
-    height:300px;
-    width:300px;
+
+.icon{
     margin-top: 40px;
+    display: flex;
+    justify-content:flex-end; 
+    text-align: end;
 }
-.gmap_canvas{
-    overflow:hidden;
-    background:none!important;
-    height:270px;
-    width:300px;
+a i{
+    width: 50px;
 }
-img{
-    width: 30px; 
-    
- }
- #c1{
-     width: 35px;
- }
 footer{
     padding: 10px;
-    background: rgb(6, 32, 32);
-    color: white;
-    text-align: center;
+    background: rgb(28, 94, 94);
+
 }
