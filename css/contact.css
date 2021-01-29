@@ -3,12 +3,9 @@
     padding: 0;
     font-family: sans-serif;
 }
-body{
-    background: #fff;
-}
+
 .container{
     width: 100%;
-    padding: 10px;
 }
 ul {
     display: flex;
@@ -19,7 +16,6 @@ ul {
 }
 ul li {
     padding: 10px;
-    
     text-transform: uppercase;
 }
 
@@ -30,4 +26,62 @@ ul li a {
 }
 ul li a:hover{
     background: pink;
+}
+fieldset{
+    border: 1px solid;
+    width: 560px;
+    color: rgb(8, 8, 8);
+    margin:auto;
+    padding-top:20px;
+    background: skyblue;
+    
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 70vh;
+    border-collapse: collapse;
+}
+input[type="text"]{
+    width: 500px;
+    height: 5vh;
+}
+#message{
+    width: 500px;
+    height: 10vh;
+}
+input[type="reset"]{
+    width: 50px;
+    background: orange; 
+}
+input[type="submit"]{
+    width:50px;
+    background: teal;
+}
+.map{
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:300px;
+    margin-top: 40px;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:270px;
+    width:300px;
+}
+img{
+    width: 30px; 
+    
+ }
+ #c1{
+     width: 35px;
+ }
+footer{
+    padding: 10px;
+    background: rgb(6, 32, 32);
+    color: white;
+    text-align: center;
 }
