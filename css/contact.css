@@ -30,14 +30,19 @@ ul li a:hover{
 .flex{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
 }
 fieldset{
+    margin-top: 30px;
     width: 550px;
     height: 400px;
     background: cyan;
 }
 h3{
     padding-top: 20px;
+}
+.map{
+    margin-top: 30px;
 }
 .form-contact{
     display: flex;
@@ -54,26 +59,33 @@ input[type="text"]{
 }
 input[type="reset"]{
     width: 250px;
-    height: 10vh;
+    height: 7vh;
     background: orange;
+    border-radius: 40px;
 }
 input[type="submit"]{
     width:250px;
-    height: 10vh;
+    height: 7vh;
+    border-radius: 40px;
     background: teal;
 }
 
 .icon{
-    margin-top: 40px;
     display: flex;
-    justify-content:flex-end; 
-    text-align: end;
+    margin-top:5%;
 }
 a i{
     width: 50px;
 }
 footer{
-    padding: 10px;
-    background: rgb(28, 94, 94);
+    margin-top: 5%;
+    background:rgb(4, 20, 20);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
 
+}
+@media(max-width:600px){
+    
 }

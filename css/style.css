@@ -44,16 +44,18 @@ ul li a:hover{
 }
 
 .icon{
-    margin-top: 40px;
     display: flex;
-    justify-content:flex-end; 
-    text-align: end;
+    justify-content: space-between;
+    margin-top:5%;
 }
 a i{
     width: 50px;
 }
 footer{
-    padding: 10px;
-    background: rgb(28, 94, 94);
+    background:rgb(4, 20, 20);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
 
 }
